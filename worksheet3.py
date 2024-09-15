@@ -1,12 +1,5 @@
 def calculate_difference(number):
-    """Calculates the difference between a given number and 17.
-
-    Args:
-        number: The number to compare.
-
-    Returns:
-        The calculated difference.
-    """
+    
 
     difference = number - 17
     if number > 17:
@@ -20,14 +13,7 @@ print(result)
 
 
 def is_within_range(number):
-    """Tests if a number is within 100 to 1000 or 2000.
-
-    Args:
-        number: The number to check.
-
-    Returns:
-        True if the number is within the range, False otherwise.
-    """
+    
 
     return (100 <= number <= 1000) or (number == 2000)
 
@@ -40,14 +26,7 @@ print(result)
 
 
 def reverse_string(string):
-    """Reverses a given string.
-
-    Args:
-        string: The string to reverse.
-
-    Returns:
-        The reversed string.
-    """
+   
 
     return string[::-1]
 
@@ -59,15 +38,7 @@ print(result)
 
 
 def count_letters(string):
-    """Counts the number of upper and lower case letters in a string.
-
-    Args:
-        string: The string to analyze.
-
-    Returns:
-        A tuple containing the counts of upper and lower case letters.
-    """
-
+    
     upper_count = sum(1 for char in string if char.isupper())
     lower_count = sum(1 for char in string if char.islower())
     return upper_count, lower_count
@@ -80,14 +51,7 @@ print(result)
 
 
 def remove_duplicates(lst):
-    """Removes duplicate elements from a list.
-
-    Args:
-        lst: The list to process.
-
-    Returns:
-        A new list with distinct elements.
-    """
+    
 
     return list(set(lst))
 
@@ -100,12 +64,7 @@ print(result)
 
 
 def print_even_numbers(lst):
-    """Prints the even numbers from a list.
-
-    Args:
-        lst: The list to process.
-    """
-
+    
     for num in lst:
         if num % 2 == 0:
             print(num)
@@ -129,13 +88,7 @@ outer_function()
 
 
 def student(name, age, grade):
-    """Displays the names of all arguments.
-
-    Args:
-        name: The student's name.
-        age: The student's age.
-        grade: The student's grade.
-    """
+    
 
     print(f"Name: {name}")
     print(f"Age: {age}")
